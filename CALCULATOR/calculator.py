@@ -437,8 +437,7 @@ if chose1 == 1:
                 if chose3D == 3:
                     print(' ')
                     print("1 - Area of a right prism, 2 - Border of a right prism")
-
-
+                    print("Hello")
 
 
 
