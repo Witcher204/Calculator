@@ -436,8 +436,24 @@ if chose1 == 1:
                 
                 if chose3D == 3:
                     print(' ')
-                    print("1 - Area of a right prism, 2 - Border of a right prism")
-                    print("Hello")
+                    print("1 - Area of a sphere, 2 - Border of a sphere")
+                    chose_sphere = int(input('Enter variant: '))
+                    if chose_sphere == 2:
+                        r = int(input("Enter 'r' side: "))
+                        if len(seeformula) > 30:
+                            print(' ')
+                            print('2*', r, ' * pi = ', r, 'pi', sep='')
+                            print("Border of a sphere it's ", r, 'pi or ', r*pi, sep='')
+                        else:
+                            print("Border of a sphere it's ", r, 'pi or ', r*pi, sep='')
+                    if chose_sphere == 1:
+                        r = int(input("Enter 'r' side: "))
+                        if len(seeformula) > 30:
+                            print(' ')
+                            print(r, ' * ', r, ' * ', 'pi', ' = ', r*r, 'pi', sep='')
+                            print("Area of a sphere it's ", r*r, 'pi or ', r*r*pi, sep='')
+                        else:
+                            print("Area of a sphere it's ", r*r, 'pi or ', r*r*pi, sep='')
 
 
 
